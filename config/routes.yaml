@@ -3,3 +3,8 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+pythagore_display:
+    path: /pythagore/viewDisplayPythagoreAction
+    controller: App\Controller\PythagoreController::viewDisplayPythagoreAction
+
